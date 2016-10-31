@@ -57,8 +57,8 @@ main, aside {
   color: black;
   font-size: 0.9rem;}
 main {
-  float: left;
   background-color:white;
+  float: left;
 }
 .italic p {
   font-style: italic;}
@@ -78,9 +78,10 @@ aside p {
 /* Footer */
 footer {
   background-color:black;
+  clear: both;
   font-size: 0.8rem;
   line-height: 0.3rem;
-  padding: 1rem;
+  padding: 0.6rem 0 0.4rem 0.6rem;
 }
 footer a {
   font-size:0.8rem;}
