@@ -1,6 +1,10 @@
-/* Text */
+/* Header */
 body {
   font-family: Arial, Helvetica, sans-serif;}
+header {
+  background-color: black;
+  padding: 4rem 0 0.5rem 0
+}
 header h1 {
   color: white;
   line-height: 0.5rem;
@@ -12,8 +16,10 @@ header h3{
 h1, h2, h3 {
   font-weight: normal;}
 h2 {
-  font-size: 1.2rem;
-}
+  font-size: 1.2rem;}
+
+
+/* Anchor & Nav */
 a {
   color: red;
   font-size: 0.9rem; 
@@ -33,6 +39,7 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
+  margin: 0rem;
 }
 nav li {
   display: inline-block;
@@ -41,21 +48,45 @@ nav li {
 nav a {
   color: darkmagenta;
   text-decoration: underline;
-  font-size: 0.9rem;
+  font-size: 0.9rem; 
 }
+
+
+/* Main & Aside */
 main, aside {
   color: black;
   font-size: 0.9rem;}
+main {
+  float: left;
+  background-color:white;
+}
 .italic p {
   font-style: italic;}
-.center {
-  text-align: center;}
-footer {
-  line-height: 0.3rem;
-  font-size: 0.8rem;}
-footer a {
-  font-size:0.8rem;}
 aside {
-  text-align: center;}
+  border: 0.1rem solid black;
+  display: block;
+  float: right;
+  text-align: center;
+}
+aside section {
+  padding: 0rem;}
 aside p {
   font-size: 0.8rem;}
+
+
+/* Footer */
+footer {
+  background-color:black;
+  font-size: 0.8rem;
+  line-height: 0.3rem;
+}
+footer a {
+  font-size:0.8rem;}
+footer p {
+  color: white;}
+.center {
+  text-align: center;}
+
+
+
+
