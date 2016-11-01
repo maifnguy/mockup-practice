@@ -11,14 +11,11 @@ header h1 {
   line-height: 0.5rem;
 }
 header h3{
-  color: lightgrey;
+  color: darkgrey;
   font-size: 1rem;
 }
 h1, h2, h3 {
   font-weight: normal;
-}
-h2 {
-  font-size: 1.2rem;
 }
 
 
@@ -39,10 +36,11 @@ nav {
   text-align: center;
 }
 nav ul {
-  list-style: none;
   display: flex;
   justify-content: space-around;
+  list-style: none;
   margin: 0 0 2rem 0;
+  padding: 0rem;
 }
 nav li {
   display: inline-block;
@@ -55,65 +53,72 @@ nav a {
 }
 
 
-/* Main & Aside */
+/* Main */
 main, aside {
   color: black;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  line-height: 1.4rem;
 }
 main {
   background-color:white;
-  width: 100%;
+  box-sizing: border-box;
   margin: 0;
   padding: 0 0 3rem 0.5rem;
-  box-sizing: border-box;
+  width: 100%;
 }
 main section {
   box-sizing: border-box;
   float: left;
+  margin: 0;
   padding: 0 1rem 0 1rem;
-  width: 60%;
+  width: 65%;
 }
 .italic p {
   font-style: italic;
 }
+main h2 {
+  font-size: 1.4rem;
+}
+
+
+/* Aside */
 aside {
-  overflow: hidden;
-  display: block;
   border: 0.1rem solid black;
-  width: 35%; 
-  padding: 0 0 0.7rem 0;
-  margin: 1rem;
   box-sizing: border-box;
+  margin: 1rem;
+  overflow: hidden;
+  padding: 0 0 0.7rem 0;
   position: relative;
   text-align: right;
+  width: 33%; 
 }
 aside section {
   width: 100%;
-  padding: 0 1rem 0 1rem;
   }
 figure {
-  position:relative;
-  display: block;
   margin: auto;
-  text-align: center;
 }
 figcaption {
   text-align: center;
 }
-aside p {
-  font-size: 0.8rem;
-  line-height: 0.7rem;
-  float: left;
-  width: 50%
-}
 aside h3 {
   text-align: center;
+  margin: 0.7rem;
+}
+aside p {
+  float: left;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin: 0.2rem 0 0 0;
+  text-align: left;
+  width: 50%;
 }
 img {
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
   width: auto\9; 
 }
+
 
 /* Footer */
 footer {
