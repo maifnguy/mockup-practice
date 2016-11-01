@@ -1,6 +1,7 @@
 /* Header */
 body {
-  font-family: Arial, Helvetica, sans-serif;}
+  font-family: Arial, Helvetica, sans-serif;
+}
 header {
   background-color: black;
   padding: 4rem 0 0.5rem 1.5rem;
@@ -14,9 +15,11 @@ header h3{
   font-size: 1rem;
 }
 h1, h2, h3 {
-  font-weight: normal;}
+  font-weight: normal;
+}
 h2 {
-  font-size: 1.2rem;}
+  font-size: 1.2rem;
+}
 
 
 /* Anchor & Nav */
@@ -28,8 +31,8 @@ a {
 header a {
   float: right;
   position: absolute;
-  right: 0rem;
-  top: 0rem;
+  right: 0.5rem;
+  top: 0.5rem;
 }
 nav {
   background-color: lightgrey;
@@ -39,7 +42,7 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  margin: 0rem;
+  margin: 0 0 2rem 0;
 }
 nav li {
   display: inline-block;
@@ -55,25 +58,62 @@ nav a {
 /* Main & Aside */
 main, aside {
   color: black;
-  font-size: 0.9rem;}
+  font-size: 0.9rem;
+}
 main {
   background-color:white;
+  width: 100%;
+  margin: 0;
+  padding: 0 0 3rem 0.5rem;
+  box-sizing: border-box;
+}
+main section {
+  box-sizing: border-box;
   float: left;
+  padding: 0 1rem 0 1rem;
+  width: 60%;
 }
 .italic p {
-  font-style: italic;}
+  font-style: italic;
+}
 aside {
-  border: 0.1rem solid black;
+  overflow: hidden;
   display: block;
-  float: right;
-  text-align: center;
-  margin: 3rem;
+  border: 0.1rem solid black;
+  width: 35%; 
+  padding: 0 0 0.7rem 0;
+  margin: 1rem;
+  box-sizing: border-box;
+  position: relative;
+  text-align: right;
 }
 aside section {
-  padding: 0rem;}
+  width: 100%;
+  padding: 0 1rem 0 1rem;
+  }
+figure {
+  position:relative;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+figcaption {
+  text-align: center;
+}
 aside p {
-  font-size: 0.8rem;}
-
+  font-size: 0.8rem;
+  line-height: 0.7rem;
+  float: left;
+  width: 50%
+}
+aside h3 {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; 
+}
 
 /* Footer */
 footer {
@@ -84,11 +124,14 @@ footer {
   padding: 0.6rem 0 0.4rem 0.6rem;
 }
 footer a {
-  font-size:0.8rem;}
+  font-size: 0.8rem;
+}
 footer p {
-  color: white;}
+  color: white;
+}
 .center {
-  text-align: center;}
+  text-align: center;
+}
 
 
 
