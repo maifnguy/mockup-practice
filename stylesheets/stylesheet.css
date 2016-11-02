@@ -138,12 +138,37 @@ img {
 }
 .profile img {
   float: left;
-  width: 40%;
   margin: 0 0.5rem 0.5rem 0.5rem;
+  width: 40%;
 }
 .kitties-intro {
   width: 98%;
 }
+
+
+/* Book a Cat */
+form {
+  border: 0.1rem solid black;
+  display: inline-block;
+  margin: auto;
+  padding: 1% 5% 5% 10%;
+  text-align: left;
+  width: 350px;
+}
+.form {
+  display: block;
+  margin: 2rem;
+  text-align: center;
+}
+input, select {
+  float: right;
+  display: inline-block;
+  margin: 0 0 0 1rem;
+}
+textarea {
+  color: darkgrey;
+}
+
 
 /* Footer */
 footer {
