@@ -125,6 +125,9 @@ img {
   padding: 0 1rem 0 1rem;
   box-sizing: border-box;
 }
+.wrapper h2 {
+  font-size: 1.4rem;
+}
 .profile{
   border: 0.1rem solid black;
   box-sizing: border-box;
@@ -154,9 +157,13 @@ img {
 .form-wrapper {
   margin: 0 1rem 1rem 1rem;
 }
+.form-wrapper h2 {
+  font-size: 1.4rem;
+}
 .form-wrapper section {
   width: 98%;
   padding: 0 1rem 0 1rem;
+  line-height: 1.4rem;
 }
 .form-wrapper figure {
   display: block;
